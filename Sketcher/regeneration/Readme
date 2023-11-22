@@ -14,3 +14,5 @@ Workflow:
         (a) tune the paras in N_Pats/paras.py
         (b) Run N_Pats/N_Pats.py to persist the trained model
   (c) Inference: Run N_Pats/Predict.py to invoke the saved model and to predict
+
+*** This is a simple example to illustrate the design choice of Sketcher. However, this example is only for demonstration and cannot be adopted for real-world utilities.
