@@ -1,0 +1,8 @@
+This Proj Epitomazor is conducted to extract features from raw NFS traces
+
+(1) The NFS traces are collected by Ftrace, and are stored as log file e.g., logs/videoserver.log
+(2) Optional* AggregateTraces.py is used to aggregate several logs files as a whole to extract sketches
+(3) ExtractPatterns.py is the main logic of extracting sketches from log, after which the extracted sketches are stored as *.csv
+(4) Optiaonal ShowPats.py is to plot the sketches
+
+The path is required by each snippets.

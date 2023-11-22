@@ -1,0 +1,10 @@
+nfs4_open_file ==> open
+nfs4_mkdir ==> makedirs
+nfs4_readdir ==> listdir
+nfs4_rename ==> rename
+nfs4_remove ==> unlink
+nfs4_write  ==>  write
+nfs4_read   ==>  read
+nfs4_close  ==>  close
+nfs4_getattr ==> fstat
+nfs4_lookup ==> tell

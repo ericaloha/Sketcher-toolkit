@@ -1,0 +1,16 @@
+The Proj Generative is built on Python3.9 with tensorflow 2.7.0
+The Generative is adopted to generate more operations associating with the Tree-RNN, where the Tree-RNN is a text-generation RNN model to generate more words based on training data.
+
+Data Format:
+    For each Tree, we have a sequence of actions, each of which touches one tree node per time.
+    For every action, the format is (layer, offset), weight.
+
+The training phase is to feed the generated actions into RNN, before which the tree-generation and action generationa are conducted by Dir TreeGenerator
+
+Workflow:
+
+  (1) Run InitTree.py with two functions to generate the tree (i.,e., specify the path, number total nodes, number of depth)
+  (2) Training:
+        (a) tune the paras in N_Pats/paras.py
+        (b) Run N_Pats/N_Pats.py to persist the trained model
+  (c) Inference: Run N_Pats/Predict.py to invoke the saved model and to predict
